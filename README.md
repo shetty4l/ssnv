@@ -1,6 +1,6 @@
 # ssnv
 
-ssnv is a secure, opinionated remote desktop system designed for robustness, correctness, and minimal configuration.
+`ssnv` is a secure, opinionated remote desktop system designed for robustness, correctness, and minimal configuration.
 
 It provides encrypted, authenticated remote display and input for Linux hosts, with a macOS client, and is designed to run reliably on laptops, headless machines (e.g. Raspberry Pi), and future cloud instances (e.g. EC2).
 
@@ -13,15 +13,17 @@ It provides encrypted, authenticated remote display and input for Linux hosts, w
 - Tier 1 distros: Ubuntu 22.04, Debian 12, Raspberry Pi OS Bookworm
 
 ## Quickstart
+```
 curl -fsSL https://raw.githubusercontent.com/shetty4l/ssnv/main/scripts/install.sh | sh
+```
 
 ## Docs
-- Architecture: docs/ARCHITECTURE.md
-- Protocol: docs/PROTOCOL.md
-- Distribution: docs/DISTRIBUTION.md
-- Installation: docs/INSTALL.md
-- Security: docs/SECURITY.md
-- Usage: docs/USAGE.md
-- Troubleshooting: docs/TROUBLESHOOTING.md
-- Milestones: docs/MILESTONES.md
-- Modules: docs/MODULES.md
+- [Architecture](./docs/ARCHITECTURE.md)
+- [Protocol](./docs/PROTOCOL.md)
+- [Distribution](./docs/DISTRIBUTION.md)
+- [Installation](./docs/INSTALL.md)
+- [Security](./docs/SECURITY.md)
+- [Usage](./docs/USAGE.md)
+- [Troubleshooting](./docs/TROUBLESHOOTING.md)
+- [Milestones](./docs/MILESTONES.md)
+- [Modules](./docs/MODULES.md)
